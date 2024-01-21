@@ -1,0 +1,177 @@
+body
+{
+   background-color: #777777;
+   color: white;
+   font-family : Georgia, Arial, "Times New Roman"; 
+   text-align : center;
+    
+}
+
+header,
+footer,
+nav,
+section,
+article,
+aside
+{
+   
+	vertical-align: top ;
+	border : 2px solid black ;
+	border-radius:10px;
+	box-shadow: 10px 10px 5px #000000;
+	padding : 1% ;
+	margin : 1% ;
+	text-align : left;
+}
+header
+{
+	text-align : center;
+	background-color: Orange;
+	text-align: center;
+	font-size : 2em;
+}
+
+footer
+{    
+	text-align : center;
+	background-color: Magenta;
+	color: white;
+	font-size: 2em;
+}
+
+nav
+{
+	display: inline-block ;
+	background-color: red;
+	color: white;
+	width : 28%;
+}
+
+section
+{
+	display: inline-block ;
+	background-color: blue;
+	color: white;
+	width : 28%;
+}
+
+article
+{
+	display: inline-block ;
+	background-color: green;
+	color: white;
+	width : 44%;
+}
+
+aside
+{    
+	display: inline-block ;
+	background-color: yellow;
+	color: black;
+	font-size: 0.75em;
+	width : 44%;
+}
+
+img
+{
+	width :100%;
+}
+
+a
+{   
+	text-decoration : none;
+}
+a:link
+{
+	color:#0000FF;
+}
+a:visited
+{
+	color:#FFFF00;
+}
+a:hover
+{
+	color:#00FF00;
+}
+a:active
+{
+	color:#0000FF;
+}
+}
+.souligne
+{
+	text-decoration : underline;
+}
+.gras
+{
+	font-weight : bold ;
+}
+.italique
+{
+	font-style : italic;
+}
+
+.petit
+{
+	font-size : 0.75em;
+}
+.moyen
+{
+	font-size : 1em;
+}
+
+.grand
+{
+	font-size : 3em;
+}
+.tresGrand
+{
+	font-size : 4em;
+}
+.gauche
+{
+	 text-align : left;
+}
+.droite
+{
+	text-align : right;
+}
+.centre
+{
+	text-align : center;
+}
+.justifie
+{
+	text-align : justify;
+}
+.fondBlanc
+{
+	background-color : white;
+}
+.rouge
+{
+	color: red;
+}
+.bleu
+{
+	color: blue;
+}
+.vert
+{
+	color: green;
+}
+.jaune
+{
+	color: yellow;
+}
+.Arial
+{
+	font-family : "Arial";
+}
+.CourierNew
+{
+	font-family : "Courier New" ;
+}
+.TimesNewRoman
+{
+	font-family : "Times New Roman";
