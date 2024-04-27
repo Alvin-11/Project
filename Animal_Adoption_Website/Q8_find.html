@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project</title>
+  <link rel="stylesheet" href="Q8_project.css">
+  <link rel="shortcut icon" type="image/png" href="pet-logo.jpg">
+</head>
+<body>
+  <div class="grid-container"> 
+    <div class="header"> <!--Contains the header-->
+	<div class="center">
+	<header><h1 class="header">Dogs &amp; Cats Adoption Center <span id="current-time"></span>  <a href="Q8_home.html"> <!-- Borrowed the image from an AI-Image generator (created my own logo) online named "deepdreamgenerator" --><!--https://deepdreamgenerator.com/processing/3789769?ut=OimTfIt8NGc5-->
+		 &nbsp; <img src="pet-logo.jpg" alt="pet_logo" class="pet_image" width="93" height="100">   
+		 </a></h1></header>
+		 </div></div>
+		 
+    <div class="sidebar"> &nbsp; <!--Contains the Side menu-->
+		<ul>
+			<li class="Home"><a href="Q8_home.html" class="active">Home page</a></li>
+			<li class="Home"><a href="Q8_browse.html" class="active">Browse Available Pets</a></li>
+			<li class="Home" style="background-color: darkgreen;"><a href="Q8_find.html" class="active">Find a dog/cat</a></li>
+			<li class="Home"><a href="Q8_dog_care.html" class="active">Dog Care</a></li>
+			<li class="Home"><a href="Q8_cat_care.html" class="active">Cat Care</a></li>
+			<li class="Home"><a href="Q8_give_away.html" class="active">Have a pet to give away</a></li>
+			<li class="Home"><a href="Q8_contact.html" class="active">Contact us</a></li>
+		</ul>
+		</div>
+		
+		<!--Contains the content area-->
+    <div class="main" style="text-align:center;" >
+	
+	<form class="findpet">
+	<div style="font-size:50px;">Find a Dog/Cat </div> <br>
+	
+	<label><input type="checkbox" id="dogcheckbox" name="pet" >Dog</label>
+	<label><input type="checkbox" id="catcheckbox" name="pet" >Cat</label> <br><br>
+	
+	<label>Breed of Dog <input type="text" id="dogbreed" name="dogbreed"></label> <br><br>
+	<label>Breed of Cat <input type="text" id="catbreed" name="catbreed"></label> <br><br>
+	<label>Breed of animal doesn't matter<input type="checkbox" id="checkbox8" name="mixbreed"></label> <br><br>
+	
+	Prefered age of animal (in human years): <select name="age_category" id ="animalagecategory"> 
+		      <option>Age of animal</option>
+			  <option>Less than 1 years old</option>
+			  <option>1-5</option>
+			  <option>6-10</option>
+			  <option>11-15</option>
+			  <option>16-20</option>
+			  <option>Over 20</option>
+			  <option>Age doesn't matter</option>
+	</select><br><br>
+	
+	Prefered gender : <select name="gender_category" id="preferredgender"> 
+		      <option>Answer</option>
+			  <option>Male</option>
+			  <option>Female</option>
+			  <option>Gender doesn't matter</option>
+	</select><br><br>
+	
+	<label>Get along with other dogs<input type="radio" id="radio1" name="pet2" ></label><br><br>
+	<label>Get along with other cats<input type="radio" id="radio2" name="pet1" ></label> <br><br>
+	
+	Suitable for a family with small children: 
+	<select name="age_category" id = "suitableforfamily"> 
+		      <option>Answer</option>
+			  <option>Yes</option>
+			  <option>No</option>
+	</select><br><br><br><br>
+	
+	
+	<input type="submit" id="submit" name="submit" onclick="return validateForm1()" style="background-color:green"> &nbsp; &nbsp;
+	<input type="reset" id="reset" name="reset" style="background-color:red">
+	</form>
+	
+	</div>
+	
+    <div class="footer"><br>	<!--Contains the footer-->
+		<footer><a href="Q8_disclaimer.html" style="color:black;">Privacy/Disclaimer Statement</a></footer>
+	</div> 
+  </div>
+  <script src="project.js"></script>
+</body>
+</html>
+
